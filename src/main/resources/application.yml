@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 8080
+
+zuul:
+  sensitiveHeaders: Cookie, Set-Cookie
+
+
+
+
