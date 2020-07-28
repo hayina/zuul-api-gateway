@@ -10,5 +10,13 @@ zuul:
   sensitiveHeaders: Cookie, Set-Cookie
 
 
+logging:
+  level:
+    org.springframework:
+      web: DEBUG
+      security: DEBUG
+
+
+
 
 
